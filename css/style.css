@@ -134,6 +134,16 @@ h3 {
     display: none
 }
 
+.image-holder2 {
+    background: url(../images/maps_enigma_v1.png) center center;
+    background-size: cover
+}
+
+
+.image-holder2 img {
+    display: none
+}
+
 .form-content {
     background: url(../images/test-bk2.jpg) center center;
     background-size: cover
