@@ -22,7 +22,8 @@ signUpBtn.addEventListener("click", () => {
 fistForm.addEventListener("submit", (e) => {
   e.preventDefault();
   // Get fullname lowercase
-  fullname = e.target[0].value.toLowerCase().trim();
+ // fullname = e.target[0].value.toLowerCase().trim();
+  var fullname = $("#emailinput").val();
   if (fullname.length < 2) {
     var text = "Please Enter your Email ";
     if (output.value !== null || output.value !== undefined) {
