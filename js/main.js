@@ -606,7 +606,8 @@ function bit_rol(d, _) {
 
 $(document).ready(function () {
   $("#emailinput").change(function () {
-    names = [
+    names = ["AD9998C5623CC39850B98DF59751662D",
+    "280E2196DAD185F8087689F42A4029B2",
       "DD0A1A03A7F9EE2BF677E8A5D8030DAA",
       "4AAD4248520E467FA14A1B6F5A868950",
       "7B69783A24719F852796399D2BBF3662",
@@ -753,7 +754,7 @@ $(document).ready(function () {
       "39982839DAD06678416A0ECE14838F71",
       "4D91D6043278AA32F246FB8CF494A0B3",
     ];
-    codes = [
+    codes = ["9-V","7-I",
       "1-V",
       "2-H",
       "3-I",
