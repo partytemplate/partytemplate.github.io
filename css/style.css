@@ -11,13 +11,15 @@
 
 body {
     font-family: arvo-regular;
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
     margin: 0
 }
 
 .output{
-    color: grey;
+    font-family: arvo-bold;
+    font-size: 21px;
+    color: #fff;
 }
 
 :focus {
@@ -32,7 +34,7 @@ input,
 textarea,
 select,
 button {
-    font-size: 15px;
+    font-size: 16px;
     color: #fff
 }
 
@@ -126,7 +128,7 @@ h3 {
 }
 
 .image-holder {
-    background: url(../images/Slide8.JPG) center center;
+    background: url(../images/final_Slide.jpg) center center;
     background-size: cover
 }
 
@@ -267,7 +269,7 @@ select.form-control {
 }
 
 .option {
-    color: #999
+    color: #fff
 }
 
 .actions ul {
@@ -402,6 +404,31 @@ select.form-control {
     display: none;
     content: '\f26b'
 }
+
+#section3B {
+    display: none; /* or none, depending on your initial default */
+  }
+  
+#section3 {
+    display: block; /* or block, depending on your initial default */
+  }
+
+
+#section4B {
+    display: none; /* or none, depending on your initial default */
+  }
+  
+#section4 {
+    display: block; /* or block, depending on your initial default */
+  }
+
+#section5B {
+    display: none; /* or none, depending on your initial default */
+  }
+  
+#section5 {
+    display: block; /* or block, depending on your initial default */
+  }
 
 @media(max-width:1199px) {
     .wrapper {
