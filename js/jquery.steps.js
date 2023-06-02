@@ -477,7 +477,7 @@
             if (options.enableCancelButton) {
                 buttons += buttonTemplate.format("cancel", options.labels.cancel);
             }
-            wizard.append(pagination.format(options.actionContainerTag, options.clearFixCssClass, options.labels.pagination, buttons));
+           // wizard.append(pagination.format(options.actionContainerTag, options.clearFixCssClass, options.labels.pagination, buttons));
             refreshPagination(wizard, options, state);
             loadAsyncContent(wizard, options, state);
         }

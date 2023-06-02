@@ -405,30 +405,7 @@ select.form-control {
     content: '\f26b'
 }
 
-#section3B {
-    display: none; /* or none, depending on your initial default */
-  }
-  
-#section3 {
-    display: block; /* or block, depending on your initial default */
-  }
 
-
-#section4B {
-    display: none; /* or none, depending on your initial default */
-  }
-  
-#section4 {
-    display: block; /* or block, depending on your initial default */
-  }
-
-#section5B {
-    display: none; /* or none, depending on your initial default */
-  }
-  
-#section5 {
-    display: block; /* or block, depending on your initial default */
-  }
 
 @media(max-width:1199px) {
     .wrapper {
